@@ -19,7 +19,7 @@ env:
 
   EKS_CLUSTER_NAME: demo-eks2
 
-  DOCKER_IMAGE: praabhatkumar1991/devops-app
+  DOCKER_IMAGE: omprakash13890/devops-app
 
 jobs:
 
@@ -104,7 +104,7 @@ jobs:
 
         with:
 
-          role-to-assume: arn:aws:iam::YOUR_AWS_ACCOUNT_ID:role/GitHubActionsEKSDeployRole
+          role-to-assume: arn:aws:iam::636467504913:role/githubaction
 
           aws-region: ${{ env.AWS_REGION }}
 
